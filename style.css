@@ -1,0 +1,99 @@
+/* Reset de estilos para remover margens e preenchimento padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold; /* Letras em negrito */
+    font-family: "serif"; /* Fonte com serifa */
+}
+
+body {
+    color: #260035; /* Cor de texto padrão */
+    background-image: url('imag-2.jpg');
+    background-size: cover; /* Cobrir todo o fundo */
+    background-position: center; /* Centralizar a imagem de fundo */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adicionando transparência à sombra */
+    backdrop-filter: blur(10px); /* Adicionando o efeito de desfoque */
+}
+
+.container h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px; /* Tamanho de fonte maior */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+}
+
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffbffc;
+    color: #ffb6c1; /* Rosa pastel suave */
+    border-radius: 5px;
+}
+
+.container input[type="date"] {
+    margin-bottom: 15px;
+}
+
+.container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #7f35ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container button:hover {
+    background-color: #c1b3d9;
+}
+
+.container input::before {
+    content: "\e5ca";
+    font-family: 'Material Symbols Outlined';
+    font-size: 18px;
+    color: #000000;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+/* Melhorias estéticas */
+.container a {
+    text-decoration: none;
+    color: #c1b3d9;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilizando o formulário de seleção */
+.container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffbffc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
