@@ -13,7 +13,7 @@
 # E-commerce 🔗
 
 
-![Capa do projeto]()
+![Capa do projeto](imag-3.png)
 
 ## Introdução 
 
@@ -38,6 +38,7 @@ A seguir, listamos as principais tecnologias utilizadas neste projeto:
 
 
 ## Fontes consultadas 
+
 
 ## Autores 
 Veronica Borges
